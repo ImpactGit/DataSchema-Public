@@ -1,0 +1,93 @@
+@prefix : <http://internetofimpact.org/library/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Organization
+  rdfs:label "Organisation";
+  rdfs:comment "An organized group of people with a particular purpose, such as a business or government department.".
+:missionPurpose
+  rdfs:label "Mission Purpose";
+  rdfs:comment "The 'how' you accomplish your purpose".
+:gicsCode
+  rdfs:label "Global Industry Classification Standard Code";
+  rdfs:comment "The Global Industry Classification Standard (GICS) is an industry taxonomy developed in 1999 by MSCI and Standard & Poor's (S&P) for use by the global financial community".
+:slogan
+  rdfs:label "Slogan";
+  rdfs:comment "A short and striking or memorable phrase used in advertising.".
+:exclusionList
+  rdfs:label "Exclusion List";
+  rdfs:comment "A list that demonstrates excluded entities.".
+:inclusionList
+  rdfs:label "InclusionList";
+  rdfs:comment "A list that demonstrates included entities.".
+:principle
+  rdfs:label "Principles";
+  rdfs:comment "A fundamental truth or proposition that serves as the foundation for a system of belief or behaviour or for a chain of reasoning.".
+:policy
+  rdfs:label "Policies";
+  rdfs:comment "A course or principle of action adopted or proposed by an organization or individual.".
+:cert
+  rdfs:label "Certifications";
+  rdfs:comment "The action or process of providing someone or something with an official document attesting to a status or level of achievement.".
+:impactReport
+  rdfs:label "Impact Reports";
+  rdfs:comment "A report that is to measure the impact of a given target / goal".
+:technicalAddenda
+  rdfs:label "Technical Addenda";
+  rdfs:comment "Document or information attached or added to clarify, modify, or support the information in the original document or written work.".
+:reportTitle
+  rdfs:label "Report Title";
+  rdfs:comment "The name given to a impact report.".
+:impactClaim
+  rdfs:label "Impact Claim";
+  rdfs:comment "The impact report statement or assertion, that something is the case".
+:impactIssueTarget
+  rdfs:label "Impact Issue Target";
+  rdfs:comment "A person, object, or place selected as the aim of an attack.".
+:indicatorName
+  rdfs:label "Indicator Name";
+  rdfs:comment "A given name of a indicator.".
+:libraryID
+  rdfs:label "Library ID";
+  rdfs:comment "Given Library ID.".
+:indicatorID
+  rdfs:label "Indicator ID";
+  rdfs:comment "Given Indicator ID.".
+:indicatorVariable
+  rdfs:label "Indicator Variable";
+  rdfs:comment "Given Indicator for the variable.".
+:indicatorControlVariableTarget
+  rdfs:label "Indicator Control Variable Target";
+  rdfs:comment "Indicator goal / target.".
+:measurementUnit
+  rdfs:label "Measurement Unit";
+  rdfs:comment "The unit that it was measured in.".
+:measurementValue
+  rdfs:label "Measurement Value";
+  rdfs:comment "The value of the measurement.".
+:measurementDate
+  rdfs:label "Measurement Date";
+  rdfs:comment "The date which the measurement is taken.".
+:measurementID
+  rdfs:label "Measurement ID";
+  rdfs:comment "The id of a measurer.".
+:measurementOfID
+  rdfs:label "Measurement Of ID";
+  rdfs:comment "The id of the place that the measurement was taken.".
+:3rdPartyAuditID
+  rdfs:label "3rd Party Audit ID";
+  rdfs:comment "The id of the audit party.".
+:3rdPartyAuditDate
+  rdfs:label "3rd Party Audit Date";
+  rdfs:comment "The date which the audit was done.".
+:technicalAddendaID
+  rdfs:label "Technical Addenda ID";
+  rdfs:comment "The id of the technical addenda.".
+:technicalAddendumName
+  rdfs:label "Technical Addendum Name";
+  rdfs:comment "The name of the technical addenda.".
+:technicalAddendumDate
+  rdfs:label "Technical Addendum Date";
+  rdfs:comment "The date of the technical addenda.".
+:technicalAddendumURL
+  rdfs:label "Technical Addendum URL";
+  rdfs:comment "The url given to the technical addenda.".
